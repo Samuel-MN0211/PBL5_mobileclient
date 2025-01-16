@@ -21,7 +21,7 @@ class _PatientCaseScreenState extends State<PatientCaseScreen> {
   final List<String> _sexOptions = ['MALE', 'FEMALE'];
 
   Future<void> createCase() async {
-    final url = Uri.parse('http://10.0.2.2:8080/case/createCase');
+    final url = Uri.parse('http://192.168.92.64:8080/case/createCase');
 
     // Preparando o corpo da requisição
     final body = jsonEncode({
